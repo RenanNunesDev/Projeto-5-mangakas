@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Sofia&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(173, 173, 173);
+}
+
+header{
+    padding: 150px;
+    background-image: url("../img/banner.jpg");
+}
+
+nav{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+main{
+    width: 900px;
+    margin: 0px auto;
+}
+
+h2{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: 'Sofia', sans-serif;
+    font-size: 2.5em;
+}
+
+h3{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Sofia', sans-serif;
+    font-size: 1.7em;
+}
+
+p{
+    text-align: justify;
+    width: 800px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2  em;
+}
+
+figure{
+    margin: 10px 30px 10px 30px;
+    padding-left: 60px;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 80px 80px;
+    margin-top: 80px;
+    background-color: black ;
+    color: white;
+}
+
+.cab{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 30px;
+}
+
+.cab:hover{
+    color: red;
+}
+
+.voltar{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+    padding: 20px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.voltar:hover{
+    color: red;
+}
+
+.espacamento{
+    margin: 30px 20px;
+}
+
+.portrait{
+    border-radius: 10px;
+}
+
+.galeria{
+    border-radius: 10px;
+    margin-left: 20px;
+}
